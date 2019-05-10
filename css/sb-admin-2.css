@@ -167,7 +167,7 @@ a {
 }
 
 a:hover {
-  color: #224abe;
+  color: LIGHTSTEELBLUE;
   text-decoration: underline;
 }
 
@@ -2043,10 +2043,10 @@ pre code {
 .form-control:focus {
   color: #6e707e;
   background-color: #fff;
-  border-color: #bac8f3;
+  border-color: PAPAYAWHIP;
   outline: 0;
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
-  box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+  -webkit-box-shadow: 0 0 0 0.2rem PEACHPUFF;
+  box-shadow: 0 0 0 0.2rem PEACHPUFF;
 }
 
 .form-control::-webkit-input-placeholder {
@@ -2594,8 +2594,8 @@ textarea.form-control {
 
 .btn:focus, .btn.focus {
   outline: 0;
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
-  box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+  -webkit-box-shadow: 0 0 0 0.2rem PEACHPUFF;
+  box-shadow: 0 0 0 0.2rem PEACHPUFF;
 }
 
 .btn.disabled, .btn:disabled {
@@ -3174,7 +3174,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-link:hover {
-  color: #224abe;
+  color: LIGHTSTEELBLUE;
   text-decoration: underline;
 }
 
@@ -3866,12 +3866,12 @@ input[type="button"].btn-block {
 }
 
 .custom-control-input:focus ~ .custom-control-label::before {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
-  box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+  -webkit-box-shadow: 0 0 0 0.2rem PEACHPUFF;
+  box-shadow: 0 0 0 0.2rem PEACHPUFF;
 }
 
 .custom-control-input:focus:not(:checked) ~ .custom-control-label::before {
-  border-color: #bac8f3;
+  border-color: PAPAYAWHIP;
 }
 
 .custom-control-input:not(:disabled):active ~ .custom-control-label::before {
@@ -4016,10 +4016,10 @@ input[type="button"].btn-block {
 }
 
 .custom-select:focus {
-  border-color: #bac8f3;
+  border-color: PAPAYAWHIP;
   outline: 0;
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
-  box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+  -webkit-box-shadow: 0 0 0 0.2rem PEACHPUFF;
+  box-shadow: 0 0 0 0.2rem PEACHPUFF;
 }
 
 .custom-select:focus::-ms-value {
@@ -4076,9 +4076,9 @@ input[type="button"].btn-block {
 }
 
 .custom-file-input:focus ~ .custom-file-label {
-  border-color: #bac8f3;
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
-  box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+  border-color: PAPAYAWHIP;
+  -webkit-box-shadow: 0 0 0 0.2rem PEACHPUFF;
+  box-shadow: 0 0 0 0.2rem PEACHPUFF;
 }
 
 .custom-file-input:disabled ~ .custom-file-label {
@@ -4141,16 +4141,16 @@ input[type="button"].btn-block {
 }
 
 .custom-range:focus::-webkit-slider-thumb {
-  -webkit-box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+  -webkit-box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem PEACHPUFF;
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem PEACHPUFF;
 }
 
 .custom-range:focus::-moz-range-thumb {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem PEACHPUFF;
 }
 
 .custom-range:focus::-ms-thumb {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem PEACHPUFF;
 }
 
 .custom-range::-moz-focus-outer {
@@ -5182,7 +5182,7 @@ input[type="button"].btn-block {
 
 .page-link:hover {
   z-index: 2;
-  color: #224abe;
+  color: LIGHTSTEELBLUE;
   text-decoration: none;
   background-color: #eaecf4;
   border-color: #dddfeb;
@@ -5191,8 +5191,8 @@ input[type="button"].btn-block {
 .page-link:focus {
   z-index: 2;
   outline: 0;
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
-  box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+  -webkit-box-shadow: 0 0 0 0.2rem PEACHPUFF;
+  box-shadow: 0 0 0 0.2rem PEACHPUFF;
 }
 
 .page-item:first-child .page-link {
@@ -10369,7 +10369,7 @@ button.bg-dark:focus {
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #224abe !important;
+  color: LIGHTSTEELBLUE !important;
 }
 
 .text-secondary {
@@ -11589,19 +11589,19 @@ a:focus {
 }
 
 .bg-login-image {
-  background: url("https://source.unsplash.com/K4mSJ7kc0As/600x800");
+  background: url("https://source.unsplash.com/user/ellienelie");
   background-position: center;
   background-size: cover;
 }
 
 .bg-register-image {
-  background: url("https://source.unsplash.com/Mv9hjnEUHR4/600x800");
+  background: url("https://source.unsplash.com/user/jamesmhammond");
   background-position: center;
   background-size: cover;
 }
 
 .bg-password-image {
-  background: url("https://source.unsplash.com/oWTW-jNGl9I/600x800");
+  background: url("https://source.unsplash.com/user/lindie");
   background-position: center;
   background-size: cover;
 }
@@ -11612,7 +11612,7 @@ form.user .custom-checkbox.small label {
 
 form.user .form-control-user {
   font-size: 0.8rem;
-  border-radius: 10rem;
+  border-radius: 0.5rem;
   padding: 1.5rem 1rem;
 }
 
