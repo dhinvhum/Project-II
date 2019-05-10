@@ -81,12 +81,16 @@
       var cpass = "12345**";
       console.log(id);
       console.log(pass);
+      if(!id=="" && !pass==""){
       if(id==cid && pass==cpass) {
           console.log("true");
           window.location.href = ("dashboard.html");
         }else{
           window.alert("Wrong email or password!");
         }
+      }else{
+        window.alert("Email or password is empty");
+      }
     };
   </script>
 
