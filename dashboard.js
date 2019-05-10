@@ -7,7 +7,7 @@ $(function() {
         }
         $("#products").append(x);
     });
-    $.get("customers.json", function(data) {
+    $.get("data/customers.json", function(data) {
         var i =0
         for(i=0;i<=data.length;i++){
          var x=0;
@@ -15,7 +15,7 @@ $(function() {
         }
         $("#customers").append(x);
     });
-    $.get("suppliers.json", function(data) {
+    $.get("data/suppliers.json", function(data) {
         var i =0
         for(i=0;i<=data.length;i++){
          var x=0;
@@ -23,7 +23,7 @@ $(function() {
         }
         $("#suppliers").append(x);
     });
-    $.get("orders.json", function(data) {
+    $.get("data/orders.json", function(data) {
         var i =0
         for(i=0;i<=data.length;i++){
          var x=0;
