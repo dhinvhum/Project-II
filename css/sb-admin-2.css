@@ -10,6 +10,8 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+
 :root {
   --blue: DARKSALMON;
   --indigo: #6610f2;
@@ -396,7 +398,7 @@ h5, .h5 {
 }
 
 h6, .h6 {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .lead {
