@@ -16,6 +16,24 @@ $(function () {
         var contacttitle = customers.contactTitle
         $("#contacttitle").val(contacttitle);
         
+        var street = customers.address.street;
+        $("#street").val(street);
+
+        var city = customers.address.city;
+        $("#city").val(city);
+
+        var region = customers.address.region;
+        $("#region").val(region);
+
+        var postalCode = customers.address.postalCode;
+        $("#postalCode").val(postalCode);
+
+        var country = customers.address.country;
+        $("#country").val(country);
+
+        var phone = customers.address.phone;
+        $("#phone").val(phone);
+
         var address = customers.address.street + customers.address.city + customers.address.region
             + customers.address.postalCode + customers.address.country + customers.address.phone;
         $("#address").val(address);
