@@ -23,6 +23,3 @@ $(function() {
       });
 });
 
-function setCookies(i){
-    document.cookie = i;
-  }
