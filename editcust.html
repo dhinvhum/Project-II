@@ -262,12 +262,12 @@
             </div>
             <div class="p-5">
 
-              <!--When use validation latin pattern is not limit characte and can input number-->
-
               <form class="user" action="customer.html">
 
+                <!--Use Basic Latin and Latin-1 Supplement-->
+
                 <div class="form-group row">
-                  
+
                   <div class="col-sm-6 ">
                     <label>ID</label>
                     <input type="text" class="form-control form-control-user" id="id" pattern="[A-Z]{5}" required>
@@ -277,8 +277,9 @@
                   <div class="col-sm-6">
                     <label>Company Name</label>
                     <input type="text" class="form-control form-control-user" id="name"
-                      pattern="[A-Z][a-zA-Z\u00C0-\u00D6\u00D8-\u00f6\u00f8-\u00ff\s- _.]{1,50}" required>
-                    <small>*Start with uppercase character</small>
+                      pattern="[A-Z][A-Za-z\u00C0-\u00D6\u00D8-\u00f6\u00f8-\u00ff\u0026\u0027\u002c\u002d\u002e\u002f\s]{1,50}"
+                      required>
+                    <small>*Start with uppercase character and can follow with symbols (& ' , - . /) </small>
                   </div>
 
                 </div>
@@ -287,16 +288,16 @@
                   <div class="col-sm-6">
                     <label>Contact Name</label>
                     <input type="text" class="form-control form-control-user" id="contactname"
-                      pattern="[A-Z][a-zA-Z\u00C0-\u00D6\u00D8-\u00f6\u00f8-\u00ff\s- _.]{1,50}" required>
-                      <small>*Start with uppercase character</small>
-                    </div>
-                  
-                    <div class="col-sm-6">
+                      pattern="[A-Z][A-Za-z\u00C0-\u00D6\u00D8-\u00f6\u00f8-\u00ff\s]{1,50}" required>
+                    <small>*Start with uppercase and support alphabetes, space</small>
+                  </div>
+
+                  <div class="col-sm-6">
                     <label>Contact Title</label>
                     <input type="text" class="form-control form-control-user" id="contacttitle"
-                      pattern="[a-zA-Z0-9- ]{1,50}" required>
-                      <small>*Start with uppercase character</small>
-                    </div>
+                      pattern="[A-Z][A-Za-z\u00C0-\u00D6\u00D8-\u00f6\u00f8-\u00ff\s]{1,50}" required>
+                    <small>*Start with uppercase and support alphabetes, space</small>
+                  </div>
                 </div>
 
                 <label>Address</label>
@@ -304,14 +305,16 @@
                   <div class="col-sm-4">
                     <label>Street</label>
                     <input type="text" class="form-control form-control-user" id="street"
-                      pattern="[a-zA-Z0-9\u00C0-\u00D6\u00D8-\u00f6\u00f8-\u00ff\s- _.]{1,}" required>
+                      pattern="[A-Za-z0-9\u00C0-\u00D6\u00D8-\u00f6\u00f8-\u00ff\u0026\u0027\u002c\u002d\u002e\u002f\s]{1,50}"
+                      required>
+                    <small>*Supports letters, numbers and symbols (& ' , - . /)</small>
                   </div>
 
                   <div class="col-sm-4">
                     <label>City</label>
                     <input type="text" class="form-control form-control-user" id="city"
-                      pattern="[A-Z][a-zA-Z\u00C0-\u00D6\u00D8-\u00f6\u00f8-\u00ff\s- _.]{1,50}" required>
-                      <small>*Start with uppercase character</small>
+                      pattern="[A-Z][A-Za-z\u00C0-\u00D6\u00D8-\u00f6\u00f8-\u00ff\s]{1,50}" required>
+                    <small>*Start with uppercase and support alphabetes, space, symbols(.)</small>
                   </div>
 
                   <div class="col-sm-4">
@@ -325,22 +328,23 @@
                   <div class="col-sm-4">
                     <label>Postal Code</label>
                     <input type="text" class="form-control form-control-user" id="postalCode"
-                      pattern="[a-zA-Z0-9- _.]{1,10}" required>
+                      pattern="[a-zA-Z0-9\u0026\u0027\u002c\u002d\u002e\u002f\s]{1,10}" required>
+                    <small>*Supports letters, numbers and symbols (& ' , - . /)</small>
                   </div>
 
                   <div class="col-sm-4">
                     <label>Country</label>
-                    <input type="text" class="form-control form-control-user" id="country"
-                      pattern="[A-Z][a-zA-z]{1,30}" required>
-                      <small>*Start with uppercase character</small>
-                    </div>
+                    <input type="text" class="form-control form-control-user" id="country" pattern="[A-Z][a-zA-z]{1,30}"
+                      required>
+                    <small>*Start with uppercase</small>
+                  </div>
 
                   <div class="col-sm-4">
                     <label>Phone</label>
                     <input type="tel" class="form-control form-control-user" id="phone"
-                      pattern="[0-9- ()_.]{1,}" required>
-                      <small>*Not permit character</small>
-                    </div>
+                      pattern="[0-9\u0028\u0029\u002d\u002e\s]{1,20}" required>
+                    <small>*Not permit character and support symbols (( ) - .)</small>
+                  </div>
                 </div>
 
                 <div class="form-group">
